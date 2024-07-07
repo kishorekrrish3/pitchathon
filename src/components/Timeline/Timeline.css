@@ -1,0 +1,87 @@
+.timeline {
+  background: linear-gradient(119deg, #121212 0%, #231f04 100%);
+  min-height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline-container {
+  padding: 3rem;
+  text-align: center;
+}
+
+.timeline-title {
+  color: #fff;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  margin-bottom: 2rem;
+}
+
+.timeline-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-img {
+  width: 100%;
+  max-width: 1200px;
+  object-fit: contain;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .timeline-title {
+    font-size: 4rem;
+    letter-spacing: 0.25rem;
+  }
+
+  .content-img {
+    max-width: 1000px;
+  }
+  .timeline {
+    min-height: 90vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .timeline {
+    min-height: 80vh;
+  }
+  .timeline-title {
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .timeline-container {
+    padding: 2rem;
+  }
+
+  .content-img {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 480px) {
+  .timeline-title {
+    font-size: 2rem;
+    letter-spacing: 0.15rem;
+    padding-top: 2rem;
+  }
+  .timeline {
+    min-height: 60vh;
+    align-items: start;
+  }
+
+  .timeline-container {
+    padding: 1rem;
+  }
+
+  .content-img {
+    max-width: 100%;
+  }
+}

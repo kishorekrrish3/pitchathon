@@ -1,0 +1,46 @@
+.card {
+  background-color: #303335;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 1rem;
+}
+
+.card-img {
+  width: 200px;
+  height: 210px;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.card-name {
+  color: #fff;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 0.25rem;
+}
+
+.card-position {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 0.15rem;
+}
+
+.card-inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #272525;
+  border-bottom-left-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+}

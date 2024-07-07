@@ -1,0 +1,25 @@
+.team {
+  background-color: #191919;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.team-container {
+  display: flex;
+  padding-left: 2rem;
+  flex-wrap: wrap;
+  padding-right: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  gap: 1.5rem;
+}
+
+.team-title {
+  color: #fff;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 2.35rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: underline;
+}
