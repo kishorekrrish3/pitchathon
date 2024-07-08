@@ -3,7 +3,7 @@ import "./Prize.css";
 
 const Prize = () => {
   return (
-    <div className="prize">
+    <div className="prize" id="section-prizes">
       <div className="prize-bg" />
       <div className="prize-content">
         <h1 className="prize-title">PRIZE POOL</h1>

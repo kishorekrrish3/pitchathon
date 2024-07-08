@@ -4,7 +4,7 @@ import Card from "../card/Card";
 
 const Team = () => {
   return (
-    <div className="team">
+    <div className="team" id="section-team">
       <h1 className="team-title">Team Members</h1>
       <div className="team-container">
         <Card
