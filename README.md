@@ -1,5 +1,5 @@
 # Pitchathon-24 - Repo of the Official Website
-## Key Contributors:
+## Key Contributors (for website):
 
 ### AI Club:
 - Kishore (Website Lead, Design and Front-End Development)
@@ -7,7 +7,7 @@
 - Guru (Front End Development & Backend Integration)
 - Kavya & Kamalesh (UI Design)
 
-## Auxiliary Contributors:
+## Other Contributors:
 ### Robotics, ProdInno, Photography & FAC clubs:
 - Instagram posts (FAC)
 - Posters & Brochure work (ProdInno)
